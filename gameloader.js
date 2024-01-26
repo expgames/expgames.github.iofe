@@ -171,7 +171,7 @@ var gamesText = `{
         },
         {
           "name":"MotoX3M",
-          "img":"https://raw.githubusercontent.com/expiredgamez/expiredgamez.github.io/main/img/motox3m.png",
+          "img":"img/moto.png",
           "path":"motox3m/"
         },
         {
@@ -203,6 +203,21 @@ var gamesText = `{
           "name":"Pac-Man",
           "img":"img/pacman.png",
           "path":"pacman/"
+        },
+        {
+          "name":"Slope",
+          "img":"img/slope.png",
+          "path":"slope/"
+        },
+        {
+          "name":"Basket Random",
+          "img":"img/basketrandom.jpg",
+          "path":"basket-random/"
+        },
+        {
+          "name":"Drive Mad",
+          "img":"img/drivemad.png",
+          "path":"drivemad/"
         }
     ]
 }`;
