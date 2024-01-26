@@ -2,6 +2,17 @@
 <html lang="en">
 
 <head>
+    <script>
+        var password = "2711";
+        (function passcodeprotect() {
+           var passcode = prompt("Enter PassCode");
+           while (passcode !== password) {
+              alert("Incorrect PassCode");
+              return passcodeprotect();
+           }
+        }());
+        alert('Welcome To The ExpGames!');
+     </script>
     <meta charset="utf-8">
     <title>Sandboxels | ExpGames</title>
     <meta name="description" content="A falling sand simulation game, with heat transfer, electricity, density, fire, explosions, and more.">

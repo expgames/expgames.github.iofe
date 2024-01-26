@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+      var password = "2711";
+      (function passcodeprotect() {
+         var passcode = prompt("Enter PassCode");
+         while (passcode !== password) {
+            alert("Incorrect PassCode");
+            return passcodeprotect();
+         }
+      }());
+      alert('Welcome To The ExpGames!');
+   </script>
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -13,17 +24,6 @@
       gtag("js", new Date());
 
       gtag("config", "G-NLXBK4W1TX");
-      <script>
-         var password = "2711";
-         (function passcodeprotect() {
-            var passcode = prompt("Enter PassCode");
-            while (passcode !== password) {
-               alert("Incorrect PassCode");
-               return passcodeprotect();
-            }
-         }());
-         alert('Welcome To The ExpGames!');
-      </script>
     </script>
     <script
       async
