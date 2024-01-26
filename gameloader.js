@@ -218,6 +218,11 @@ var gamesText = `{
           "name":"Drive Mad",
           "img":"img/drivemad.png",
           "path":"drivemad/"
+        },
+        {
+          "name":"Sketchbook",
+          "img":"img/sketchbook.png",
+          "path":"sketchbook/"
         }
     ]
 }`;
