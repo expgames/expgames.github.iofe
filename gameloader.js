@@ -233,6 +233,11 @@ var gamesText = `{
           "name":"Super Mario Bros",
           "img":"img/smb.png",
           "path":"smb/"
+        },
+        {
+          "name":"Shell Shockers",
+          "img":"img/shell.png",
+          "path":"shellshockers/"
         }
     ]
 }`;
