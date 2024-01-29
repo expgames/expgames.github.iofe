@@ -223,6 +223,16 @@ var gamesText = `{
           "name":"Sketchbook",
           "img":"img/sketchbook.png",
           "path":"sketchbook/"
+        },
+        {
+          "name":"Stacktris",
+          "img":"img/stacktris.png",
+          "path":"Stacktris/"
+        },
+        {
+          "name":"Super Mario Bros",
+          "img":"img/smb.png",
+          "path":"smb/"
         }
     ]
 }`;
