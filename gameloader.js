@@ -1,5 +1,5 @@
 if (!window.top.location.href.startsWith("https://skybase-alpha.github.io/")) {
-  document.querySelector("title").innerHTML = "Google";
+  document.querySelector("title").innerHTML = "ExpGames";
   function hidey() {
     var theURL = prompt(
       "Please enter a URL to show in your history instead of ExpGames\r\nMake sure to include https:// or http://\r\nLeave blank for Google Classroom"
