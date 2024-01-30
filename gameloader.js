@@ -160,7 +160,7 @@ var gamesText = `{
           "path":"nes/"
         },
         {
-          "name":"RUN 3",
+          "name":"RUN 3 (Broken)",
           "img":"img/run3.png",
           "path":"RUN3/"
         },
