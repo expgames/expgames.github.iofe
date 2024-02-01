@@ -160,11 +160,6 @@ var gamesText = `{
           "path":"nes/"
         },
         {
-          "name":"RUN 3 (Broken)",
-          "img":"img/run3.png",
-          "path":"RUN3/"
-        },
-        {
           "name":"Cookie Clicker",
           "img":"img/cookieclicker.png",
           "path":"cookieclicker/"
