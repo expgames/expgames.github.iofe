@@ -238,7 +238,7 @@ var gamesText = `{
           "name":"1v1 LOL",
           "img":"img/1v1.png",
           "path":"1v1lol/"
-        },
+        }
     ]
 }`;
 var gameObject = JSON.parse(gamesText);
