@@ -228,6 +228,11 @@ var gamesText = `{
           "name":"Super Mario Bros",
           "img":"img/smb.png",
           "path":"smb/"
+        },
+        {
+          "name":"1v1 LOL",
+          "img":"img/1v1.png",
+          "path":"1v1lol/"
         }
     ]
 }`;
