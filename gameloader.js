@@ -233,11 +233,6 @@ var gamesText = `{
           "name":"Minecraft",
           "img":"img/mc.png",
           "path":"minecraft/"
-        },
-        {
-          "name":"1v1 LOL",
-          "img":"img/1v1.png",
-          "path":"1v1lol/"
         }
     ]
 }`;
