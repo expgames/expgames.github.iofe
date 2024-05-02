@@ -1,3 +1,4 @@
+// connor33341
 import { GetLocalIPs } from "./getip";
 let IP;
 export async function SetUser(){
@@ -7,6 +8,9 @@ export async function SetUser(){
     } else {
         IP = null;
     }
+}
+export async function SetIP(SelectedIP){
+    IP = SelectedIP;
 }
 export async function SetCookie(Name,Value) {
     try {
