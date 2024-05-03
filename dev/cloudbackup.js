@@ -33,3 +33,11 @@ export async function SetCookie(Name,Value) {
         console.error('Error:', error.message);
     }
 }
+export async function FromCookies(Cookies){
+    for (let index in Cookies){
+        var Object = Cookies[index]
+        var Name = Object[0]
+        var Value = Object[1]
+        SetCookie(Name,Value)
+    }
+}

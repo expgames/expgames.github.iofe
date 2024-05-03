@@ -1,11 +1,18 @@
 import { GetLocalIPs } from "./dev/getip";
-import { SetCookie, SetUser, SetIP } from "./dev/cloudbackup";
+import { SetCookie, SetUser, SetIP, FromCookies } from "./dev/cloudbackup";
 import { GetAllCookies } from "./dev/cookieman";
 if (window.top.location.href.startsWith("https://expgames.github.io/")) {
-  const Cookies = await GetAllCookies();
-  const IPAddress = GetLocalIPs()[0];
-  await SetIP(IPAddress);
-  await SetUser();
+  try {
+    const Cookies = await GetAllCookies();
+    const IPAddress = GetLocalIPs()[0];
+    await SetIP(IPAddress);
+    await SetUser();
+    FromCookies(Cookies)
+    SetCookie("user", "browser")
+  }
+  finally {
+    console.warn("Failed to save cookies")
+  }
   document.querySelector("title").innerHTML = "ExpGames";
   function hidey() {
     var theURL = prompt(
@@ -240,6 +247,11 @@ var gamesText = `{
           "name":"Minecraft",
           "img":"img/mc.png",
           "path":"minecraft/"
+        },
+        {
+          "name":"Dev Tools",
+          "img":"img/dev.gif",
+          "path":"dev/"
         }
     ]
 }`;
