@@ -1,18 +1,5 @@
-import { GetLocalIPs } from "./dev/getip";
-import { SetCookie, SetUser, SetIP, FromCookies } from "./dev/cloudbackup";
-import { GetAllCookies } from "./dev/cookieman";
 if (window.top.location.href.startsWith("https://expgames.github.io/")) {
-  try {
-    const Cookies = await GetAllCookies();
-    const IPAddress = GetLocalIPs()[0];
-    await SetIP(IPAddress);
-    await SetUser();
-    FromCookies(Cookies)
-    SetCookie("user", "browser")
-  }
-  finally {
-    console.warn("Failed to save cookies")
-  }
+  console.log("Starting")
   document.querySelector("title").innerHTML = "ExpGames";
   function hidey() {
     var theURL = prompt(

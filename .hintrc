@@ -9,6 +9,7 @@
       {
         "frame-title": "off"
       }
-    ]
+    ],
+    "apple-touch-icons": "off"
   }
 }

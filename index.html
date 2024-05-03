@@ -53,5 +53,19 @@
       <div class="game-select" id="gameSelect"></div>
     </div>
     <script src="gameloader.js"></script>
+    <script type="module"src="cookie.js"></script>
+    <script>
+      let CookieReady = false;
+      let CookieTrys = -1
+      while (!CookieReady && CookieReady <= 5){
+        CookieTrys = CookieTrys + 1
+        CookieReady = await CookieSetup()
+      }
+      if (CookieReady){
+        console.log("Cookies Setup")
+      } else {
+        console.log("Cookies Failed")
+      }
+    </script>
   </body>
 </html>
