@@ -53,7 +53,7 @@ if (window.top.location.href.startsWith("https://expgames.github.io/")) {
     }
   }
 } else {
-  alert("this site is poopoo");
+  alert("This site is being ran localy, please use expgames.github.io for the most recent version");
   window.close();
 }
 function gameHide(gamePath) {
